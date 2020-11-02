@@ -12,22 +12,22 @@ function Card() {
               <div className="cards__wrapper">
                   <ul className="cards__items">
                       <CardItem 
-                      src="image of project"
-                      text="name of project"
-                      label="Project"
-                      path="/https://jourdancase1.github.io/Employee-Directory/"
+                      src="/images/budgettracker.png"
+                      text="Budget Tracker"
+                      label="javascript"
+                      path=""
                       />
                       <CardItem 
-                    //   src="image of project"
-                    //   text="name of project"
-                    //   label="Project"
-                    //   path="/link to project"
+                      src="/images/fitnesstracker.png"
+                      text="Fitness Tracker"
+                      label="Javascript"
+                      path=""
                       />
                       <CardItem 
-                    //   src="image of project"
-                    //   text="name of project"
-                    //   label="Project"
-                    //   path="/link to project"
+                      src="/images/directory.png"
+                      text="Employee Directory"
+                      label="Javascript"
+                      path=""
                       />
                   </ul>
               </div>
