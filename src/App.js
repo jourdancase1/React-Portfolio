@@ -2,10 +2,11 @@ import React from "react"
 import './App.css';
 import Nav from "./components/Nav";
 import Footer from "./components/Footer";
-import Portfolio from "./components/Portfolio";
-import About from "./components/About";
-import Contact from "./components/Contact";
+import Projects from "./components/pages/Projects";
+import About from "./components/pages/About";
+import Contact from "./components/pages/Contact";
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom"
+import Home from "./components/pages/Home"
 
 
 function App() {
@@ -14,10 +15,10 @@ function App() {
       <div className="App">
         <Nav />
           <Switch>
-            <Route path = "/" exact component={About}/> 
+            <Route path = "/" exact component={Home}/> 
             <Route path = "/about" component={About}/> 
             <Route path= "/contact" component={Contact}/> 
-            <Route path = "/portfolio" component={Portfolio}/>
+            <Route path = "/projects" component={Projects}/>
           </Switch>
         <Footer/>
       </div>

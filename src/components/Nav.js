@@ -9,8 +9,8 @@ function Nav() {
     const closeMobileMenu = () => setClick(false)
 
     return (
-
-       <nav className="navbar">
+        <>
+        <nav className="navbar">
            <div className="navbar-container">
                <Link to="/" className="navbar-logo nav-links">
                 JC
@@ -26,12 +26,12 @@ function Nav() {
                        <Link to="/contact" className="nav-links" onClick={closeMobileMenu}>Contact</Link>
                    </li>
                    <li className="nav-item">
-                       <Link to="/portfolio" className="nav-links" onClick={closeMobileMenu}>Portfolio</Link>
+                       <Link to="/projects" className="nav-links" onClick={closeMobileMenu}>Portfolio</Link>
                    </li>
                </ul>
            </div>
        </nav>
-
+        </>
     )
 }
 
