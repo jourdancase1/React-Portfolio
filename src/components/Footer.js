@@ -15,7 +15,7 @@ function Footer() {
                         Jourdan Case
                     </Col>
                     <Col className="p-0 d-flex justify-content-end" md={3}>
-                        This site was made by Jourdan Case
+                        Designed by Jourdan Case
                     </Col>
                 </Row>
             </Container>

@@ -1,5 +1,6 @@
 .cards {
-    padding: 4rem;
+    padding: 5rem;
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
   }
   
   h1 {
