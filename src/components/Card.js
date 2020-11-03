@@ -2,11 +2,11 @@ import React from 'react';
 // import { Link } from "react-router-dom";
 import CardItem from "./CardItem"
 import "./card.css"
-import Links from "./Links"
+
 
 function Card() {
     return(
-      <div className="cards">
+      <div className="cards" >
           <h1>Check out my portfolio!</h1>
           <div className="cards__container">
               <div className="cards__wrapper">

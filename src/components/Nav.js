@@ -10,7 +10,7 @@ function Nav() {
 
     return (
         <>
-        <nav className="navbar">
+        <nav className="navbar navbar-fixed-top">
            <div className="navbar-container">
                <Link to="/" className="navbar-logo nav-links">
                 JC
