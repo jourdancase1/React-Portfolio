@@ -23,10 +23,10 @@ function Nav() {
                        <Link to="/about" className="nav-links" onClick={closeMobileMenu}>About</Link>
                    </li>
                    <li className="nav-item">
-                       <Link to="/contact" className="nav-links" onClick={closeMobileMenu}>Contact</Link>
+                       <Link to="/projects" className="nav-links" onClick={closeMobileMenu}>Portfolio</Link>
                    </li>
                    <li className="nav-item">
-                       <Link to="/projects" className="nav-links" onClick={closeMobileMenu}>Portfolio</Link>
+                       <Link to="/contact" className="nav-links" onClick={closeMobileMenu}>Contact</Link>
                    </li>
                </ul>
            </div>

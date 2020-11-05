@@ -5,7 +5,7 @@ import "./about.css"
 function About() {
   
     return (
-        <div className="hero-container">
+        <div className="hero-container1">
             {/* <video src="/videos/video-2.mp4" autoPlay loop muted/> */}
            <h1 className="heroh1">About Me</h1>
            <div className="about">
