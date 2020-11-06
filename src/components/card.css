@@ -8,6 +8,10 @@
     text-align: center;
     color: white;
   }
+  a {
+    font-size: 28px;
+    text-align: center;
+  }
   
   .cards__container {
     display: flex;
@@ -16,7 +20,7 @@
     max-width: 1120px;
     width: 90%;
     margin: 0 auto;
-    padding-bottom: 145px;
+    padding-bottom: 225px;
   }
   
   .cards__wrapper {

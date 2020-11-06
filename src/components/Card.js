@@ -14,20 +14,17 @@ function Card() {
                       <CardItem 
                       src="/images/budgettracker.png"
                       text="Budget Tracker"
-                      label="javascript"
-                      path=""
+                      url="https://obscure-sea-21560.herokuapp.com/"
                       />
                       <CardItem 
                       src="/images/fitnesstracker.png"
                       text="Fitness Tracker"
-                      label="Javascript"
-                      path=""
+                      url="https://calm-hollows-35671.herokuapp.com/"
                       />
                       <CardItem 
                       src="/images/directory.png"
                       text="Employee Directory"
-                      label="Javascript"
-                      path=""
+                      url="https://jourdancase1.github.io/Employee-Directory/"
                       />
                   </ul>
               </div>
